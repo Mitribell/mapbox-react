@@ -1,20 +1,27 @@
-.map-container {
+/* .map-container {
     position: absolute;
     left: 33.3333%;
     width: 66.6666%;
     top: 0;
     bottom: 0;
-  }
+  } */
   
   .marker {
-    background-color: #4CAF50;
-    border: 1px solid blue;
+    background-color: #81d1d5;
+    border: 1px solid #68b6ba;
     color: white;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     border-radius: 50%;
+    cursor: pointer;
   }
+
+  /* #map {
+      position: absolute;
+      height: 100%;
+      width: 70%;
+  } */

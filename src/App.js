@@ -4,9 +4,9 @@ import Sidebar from "./Sidebar";
 
 function App() {
   return (
-    <div>
+    <div className="md:flex md:flex-row flex-col">
       <Sidebar />
-      <Map />
+      <Map />      
     </div>
   );
 }
